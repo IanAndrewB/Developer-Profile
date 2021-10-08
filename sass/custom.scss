@@ -1,0 +1,24 @@
+// Customized Variables
+$primary: white;
+$danger: #FBB03B;
+
+$body-color: black;
+
+$border-radius: 30px;
+
+$input-btn-padding-y:15px;
+$input-btn-padding-x:25px;
+
+$btn-font-weight: bold;
+$btn-font-size: 13px;
+
+
+$link-color: black;
+$link-decoration: none;
+$link-hover-color: #FBB03B;
+
+// Import Bootstrap
+@import "../bootstrap/scss/bootstrap.scss";
+
+
+@import "style.css";

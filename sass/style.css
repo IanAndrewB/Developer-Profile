@@ -1,0 +1,299 @@
+/*********************GENERAL CSS*********************/
+
+html
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0px auto;
+    font-family: poppins;
+}
+
+h1,h2,h3,h4, h5, h6
+{
+    color: white;
+    font-weight: bold;
+}
+
+.fa, .fa.fa
+{
+    font-size: 20px;
+    color: #c5c5c5;
+    margin-right: 36px;
+}
+.fa:hover
+{
+    transition: 0.15s ease;
+    color: #FBB03B;
+}
+p
+{
+    line-height: 1.5rem;
+}
+
+h1
+{
+    font-size: 66px;
+}
+.btn-primary:hover
+{
+    background-color: rgba(0 , 0, 0, 0.5);
+    color: white;
+    border-color: white;
+}
+.btn-danger:hover
+{
+    background-color: rgba(0 , 0, 0, 0.5);
+    color: #FBB03B;
+    border-color: #FBB03B;
+}
+.container-fluid
+{
+    padding: 0px;
+    margin: 0px;
+}
+ul.dropdown-menu.show {
+    border-radius: 5px;
+}
+/***************HERO BANNER*****************/
+.gc-banner
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0px;
+}
+
+.text-title
+{
+    justify-content: center;
+    max-width: 360px;
+    font-weight: bold;
+}
+
+.gc-brand
+{
+    margin-left: 20px;
+    color: black;
+}
+
+/******************ABOUT SECTION******************/
+
+.gc-about
+{
+    padding: 40px 0px;
+    background-color: #Fafafa;
+    border-top: 2px solid black;
+}
+.gc-about-title
+{
+    color: black;
+}
+.gc-about-desc
+{
+    color: #808080;
+}
+
+/**************FEATURED SECTION******************/
+
+.gc-feature
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 163px 56px 62px 56px;
+}
+
+.gc-feature h3
+{
+    padding-bottom: 25px;
+    max-width: 200px;
+}
+
+.gc-feature-text
+{
+    font-weight: 400;
+}
+
+.gc-section
+{
+    padding: 80px 0px;
+}
+
+.gc-product-row-1
+{
+    padding: 70px 0px 70px 0px;
+    background-color: #Fafafa;
+}
+
+.gc-product-row-1 h4
+{
+    color: black;
+    margin: 0px;
+}
+
+.gc-product
+{
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.gc-product-name, .gc-product-price
+{
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+.gc-product-price
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.gc-product-header
+{
+    color: black;
+    font-size: 29px;
+    font-weight: 100;
+    padding: 0px 0px 33px 0px;
+}
+.gc-product-row-2
+{
+    padding: 78px 0px 93px 0px;
+    background-color: #Fafafa;
+}
+/*****************SERVICE SECTION*********************/
+
+.gc-service
+{
+    padding: 50px 30px 50px 30px;
+}
+
+.gc-service-img
+{
+    padding: 93px 0px 43px 0px;
+}
+
+.gc-service-title
+{
+    color: black;
+    font-weight: 600;
+}
+
+.gc-service-desc
+{
+    padding-top: 20px;
+    font-size: 13px;
+    color: #808080
+}
+
+/********************CTA*********************/
+.gc-cta
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 105px;
+    margin: 50px auto 50px auto;
+}
+
+.gc-cta h2
+{
+    font-size: 29px;
+}
+
+/*******************FOOTER**********************/
+footer
+{
+    padding: 90px 30px 36px 30px;
+    background-color: #Fafafa;
+}
+.gc-footer-logo
+{
+    margin-right:25px; 
+}
+.gc-footer-title
+{
+    font-size: 19px;
+}
+.gc-footer-about
+{
+    margin-top: 33px;
+    color: #808080;
+    font-size: 13px;
+    font-weight: 500;
+    max-width: 412px;
+}
+.gc-footer-menu
+{
+    color: black;
+    margin-bottom: 34px;
+}
+.gc-footer-btm
+{
+    border-top: 1px solid #8d8d8d;
+    padding-top:35px;
+}
+.gc-social-links
+{
+    padding-top: 30px;;
+}
+/**col-lg**/
+@media only screen and (max-width: 1199px) {
+    .gc-footer-menu
+    {
+        margin:20px 0px 20px 0px;
+    }
+    .gc-cta-btn
+    {
+        margin-top: 20px;
+    }
+    .gc-feature
+    {
+        margin-top: 20px;
+    }
+    .gc-product
+    {
+        margin-top: 50px;
+    }
+    .gc-about
+    {
+        padding: 30px; 
+    }
+    .gc-about-holder
+    {
+        margin-top: 50px;
+    }
+    .list-unstyled a
+    {
+        display: block;
+    }
+}
+/**col-md**/
+@media only screen and (max-width: 992px) {
+    .gc-banner
+    {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+/**col-sm**/
+@media only screen and (max-width: 769px) {
+    .gc-cta
+    {
+        padding: 50px;
+    }
+}
+/**col-**/
+@media only screen and (max-width: 576px) {
+    .gc-cta
+    {
+        padding: 50px 30px 50px 30px;
+    }
+}
