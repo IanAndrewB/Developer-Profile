@@ -90,6 +90,9 @@ ul.dropdown-menu.show {
     color: black;
 }
 
+.carousel-caption {
+    margin: 10% 0px 50px 0px;
+}
 /******************ABOUT SECTION******************/
 
 .gc-about
