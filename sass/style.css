@@ -64,12 +64,11 @@ ul.dropdown-menu.show {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 200px 0px;
+    padding: 200px 200px;
 }
 
 .text-title
 {
-    margin-top: -200px;
     justify-content: left;
     text-align: left;
     max-width: 600px;
